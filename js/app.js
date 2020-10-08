@@ -52,8 +52,18 @@ Horns.readJson = () => {
     })
 }
 
-$('keyword').on("click ",function(){
-  Horns.readJson().remove();
-})
+Horns.filter = () => {
+  $('select').on('change', function () {
+    var valueCliked = $(this).val();
+    // hiding all the content of the page
+    $('section').hide();
+    // redering/ showing all the data that have the same Keyword
+    $(`section.${valueCliked}`).fadeIn();
+    if (valueCliked === 'val') {
+      $('section').fadeIn();
+    }
+  })
+}
 
-$(() => Horns.readJson())
+
+$(() => { Horns.readJson(); Horns.filter() })

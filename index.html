@@ -1,3 +1,5 @@
+<!-- Note: you may use this starter code, but it is not a requirement -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script id="photoTemplate" type="text/x-tmpl-mustache">
-      <section>
+      <section class={{keyword}}>
         <h2>{{ title }}</h2>
         <img src ="{{image_url}}">
         <p>about: {{ description }}</p>
@@ -17,7 +19,7 @@
     <header>
       <h1>The Gallery of Horns</h1>
       <select>
-        <option id ="keyword" value="">select Keyword</option>
+        <option id ="keyword" value="val">select Keyword</option>
       </select>
     </header>
     <main>
