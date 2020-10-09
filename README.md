@@ -8,4 +8,5 @@ Start time: 4pm
 
 Finish time: 6pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: over 15hrs
+
