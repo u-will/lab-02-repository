@@ -1,0 +1,32 @@
+select:hover {
+  background: #f7fff7ff;
+  color: #ff6b6bff;
+  transition: all .1s ease-in-out;
+}
+
+select {
+  transition: all .1s ease-in-out;
+}
+
+h1 {
+  transition: all 1.5s ease-in-out;
+}
+
+h1:hover {
+  transform: translate(-13px, -13px);
+  text-shadow:
+    1px 1px #ff6b6bff,
+    2px 2px #ff6b6bff,
+    3px 3px #ff6b6bff,
+    4px 4px #ff6b6bff,
+    5px 5px #ff6b6bff,
+    6px 6px #ff6b6bff,
+    7px 7px #ff6b6bff,
+    8px 8px #ff6b6bff,
+    9px 9px #ff6b6bff,
+    10px 10px #ff6b6bff,
+    11px 11px #ff6b6bff,
+    12px 12px #ff6b6bff,
+    13px 13px #ff6b6bff;
+  transition: all 1.5s ease-in-out both;
+}
